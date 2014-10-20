@@ -1,4 +1,6 @@
-# Option ':'
+# Sequences of Numbers
+
+## ':'
 Used to create a sequence from a to b
 
 ```
@@ -18,7 +20,7 @@ Used to create a sequence from a to b
  [1] 15 14 13 12 11 10  9  8  7  6  5  4  3  2  1
  ```
 
-# Option seq()
+## seq()
 Used to a sequence from a to b
 
 ```
@@ -63,7 +65,7 @@ A sequence in increments of 1 to the size of a vector
 [30] 30
 ```
 
-# Option seq_along()
+## seq_along()
 A stablished function for doing the last thing
 ```
 > seq_along(my_seq)
@@ -71,7 +73,7 @@ A stablished function for doing the last thing
 [30] 30
 ```
 
-# Option rep()
+## rep()
 To create a vector with a repited value
 ```
 > rep(0, times= 40)
